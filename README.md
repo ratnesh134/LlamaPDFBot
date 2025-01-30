@@ -11,10 +11,8 @@ This is a **Streamlit-based PDF chatbot** that enables users to upload a **PDF d
 
 ## Installation
 ### 1️⃣ Clone the Repository
-```bash
 git clone https://github.com/ratnesh134/LlamaPDFBot.git
 cd chat-with-doc-llama
-
 
 ### Setting up the Virtual Environment
 python -m venv venv
