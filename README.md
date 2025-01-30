@@ -31,24 +31,37 @@ GROQ_API_KEY=your_groq_api_key
 streamlit run app.py
 
 ## Usage
+
 Upload a PDF document.
+
 Ask questions related to the document.
+
 The chatbot retrieves relevant content and provides context-aware responses.
+
 Conversation history is maintained for continuity.
 
 ## Technologies Used
 Streamlit for UI
+
 LangChain for LLM interactions
+
 FAISS for vector search
+
 Hugging Face Embeddings for document representation
+
 Groq for LLAMA 3.1-70B
 
 # Here's a flow diagram representing the workflow of your Chat with Doc - LLAMA 3.1 project.
 
 ## Flow Breakdown:
 User Uploads PDF → The PDF document is loaded and processed.
+
 Text Extraction & Splitting → The document is converted into text chunks.
+
 Vector Embedding → Text chunks are embedded using Hugging Face Embeddings and stored in FAISS.
+
 User Asks a Question → The query is processed and retrieved from the vector store.
+
 LLAMA 3.1 Model Processing → The Groq LLM answers based on retrieved content.
+
 Response Displayed → The answer and relevant document context are shown in Streamlit.
