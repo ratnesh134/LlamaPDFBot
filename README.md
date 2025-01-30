@@ -4,13 +4,21 @@ This is a **Streamlit-based PDF chatbot** that enables users to upload a **PDF d
 
 ## Key Highlights:
 ✅ Developed an AI-powered chatbot using LLAMA 3.1-70B via Groq for document-based question-answering.
+
 ✅ Built a PDF processing pipeline that extracts, splits, and embeds text using Hugging Face embeddings and stores it in FAISS for efficient retrieval.
+
 ✅ Designed and implemented a Retrieval-Augmented Generation (RAG) system, ensuring accurate and context-aware responses.
+
 ✅ Integrated Streamlit for an interactive UI, enabling users to upload PDFs, ask questions, and receive responses dynamically.
+
 ✅ Implemented Conversational Memory using LangChain’s ConversationBufferMemory, maintaining chat history for a seamless experience.
+
 ✅ Utilized LangChain for efficient document chunking, embedding creation, and retrieval optimization.
+
 ✅ Optimized model performance by fine-tuning retrieval settings and reducing response latency using efficient text-splitting strategies.
+
 ✅ Implemented secure API handling using .env files to manage Groq API keys and ensure data protection.
+
 ✅ Followed Agile development methodologies for iterative improvements and deployed locally with Python virtual environments for dependency management.
 
 ## Features
