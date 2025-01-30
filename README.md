@@ -1,4 +1,4 @@
-# 🦙 Chat with Doc - LLAMA 3.1
+# 🦙 LlamaPDFBot - LLAMA 3.1
 
 This is a **Streamlit-based PDF chatbot** that enables users to upload a **PDF document** and interact with it using **LLAMA 3.1-70B** via **Groq**. It uses **FAISS vector storage** and **Hugging Face embeddings** for efficient document retrieval and chat memory.
 
